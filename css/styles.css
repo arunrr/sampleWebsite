@@ -1,3 +1,21 @@
-nav .navbar-right {
-  float: right;
+body {
+  background-color: saddlebrown;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 30;
+}
+
+#headerCarousel {
+  width: 100%;
+  margin-bottom: 50px;
+  height: 100%;
+}
+
+#headerCarousel .carousel-inner img {
+  width: 980px;
+  height: 450px;
 }
