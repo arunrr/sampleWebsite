@@ -11,12 +11,23 @@ body {
 
 #headerCarousel {
     width: 100%;
-    margin-bottom: 50px;
     height: 100%;
     .carousel-inner {
         img {
             width: 980px;
             height: 450px;
         }
+    }
+}
+.team-wrapper{
+    padding-top: 40px;
+    .team-heading{
+        padding: 10px;
+    }
+    text-align: center;
+    img{
+        width:200px;
+        height:200px;
+        margin-bottom: 20px;
     }
 }
