@@ -1,5 +1,5 @@
 body {
-  background-color: saddlebrown;
+  background-color: #6534ff;
   color: aliceblue;
 }
 
@@ -20,12 +20,18 @@ body {
   height: 450px;
 }
 
+.black-overlay {
+  background: rgba(0, 0, 5, 0.9);
+  z-index: 20;
+}
+
 .team-wrapper {
   padding: 40px;
 }
 
 .team-wrapper .team-heading {
   padding: 10px;
+  margin-bottom: 30px;
 }
 
 .team-wrapper img {
@@ -36,10 +42,29 @@ body {
 
 .details-wrapper {
   padding: 40px 40px;
+  background-color: #6534ff;
 }
 
 .details-wrapper .row {
+  padding: 40px 40px;
+  background-color: #131200;
+}
+
+.details-wrapper .col-md-8 {
   padding: 20px;
+}
+
+.details-wrapper .row1 {
+  width: 100%;
+}
+
+.details-wrapper .row2 {
+  background-color: #070707;
+  width: 100%;
+}
+
+.details-wrapper .row3 {
+  width: 100%;
 }
 
 .details-wrapper img {
@@ -48,12 +73,12 @@ body {
 }
 
 footer {
-  margin: 0 100px;
-  padding-top: 10px;
+  padding: 20px 40px;
+  background-color: #070707;
 }
 
 footer a {
-  color: aqua;
+  color: #34d1bf;
 }
 
 footer a:hover {
