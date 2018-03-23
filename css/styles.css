@@ -46,3 +46,17 @@ body {
   width: 100%;
   height: 100%;
 }
+
+footer {
+  margin: 0 100px;
+  padding-top: 10px;
+}
+
+footer a {
+  color: aqua;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
