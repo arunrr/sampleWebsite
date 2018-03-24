@@ -1,5 +1,12 @@
+//variables
+
+//colors
+$bag-color:#6534ff;
+$black-color: #070707;
+$font-blue:#34d1bf;
+
 body {
-    background-color: #6534ff;
+    background-color: $bag-color;
     color: aliceblue;
 }
 
@@ -8,7 +15,11 @@ body {
     right: 0;
     left: 0;
     z-index: 30;
+    nav{
+        background-color: $black-color;
+    }
 }
+
 
 #headerCarousel {
     width: 100%;
@@ -24,16 +35,10 @@ body {
         }
     }
 }
-.black-overlay{
-     background:  rgba(0,0,5,0.9);
-    z-index: 20;
-    
-}
+
 .team-wrapper{
     padding: 40px;
-
-    
-    
+  
     .team-heading{
         padding: 10px;
         margin-bottom:30px;
@@ -46,11 +51,13 @@ body {
 }
 .details-wrapper{
      padding: 40px 40px;
-    background-color: #6534ff;
+    background-color: $bag-color;
     
     .row{
         padding: 40px 40px;
-        background-color: #131200;
+        background-color: beige;
+        margin: 20px 0;
+        color: $black-color;
     }
     .col-md-8{
         padding: 20px;
@@ -59,7 +66,8 @@ body {
         width: 100%;
     }
     .row2{
-        background-color: #070707;
+        background-color: $black-color;
+        color: beige;
         width: 100%;
     }
     .row3{
@@ -73,9 +81,9 @@ body {
 }
 footer{
     padding: 20px 40px;
-    background-color: #070707;
+    background-color: $black-color;
     a{
-        color: #34d1bf;
+        color: $font-blue;
         &:hover{
             color: white;
             text-decoration: none;

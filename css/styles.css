@@ -10,6 +10,10 @@ body {
   z-index: 30;
 }
 
+.navbar-wrapper nav {
+  background-color: #070707;
+}
+
 #headerCarousel {
   width: 100%;
   height: 100%;
@@ -18,11 +22,6 @@ body {
 #headerCarousel .carousel-inner img {
   width: 980px;
   height: 450px;
-}
-
-.black-overlay {
-  background: rgba(0, 0, 5, 0.9);
-  z-index: 20;
 }
 
 .team-wrapper {
@@ -47,7 +46,9 @@ body {
 
 .details-wrapper .row {
   padding: 40px 40px;
-  background-color: #131200;
+  background-color: beige;
+  margin: 20px 0;
+  color: #070707;
 }
 
 .details-wrapper .col-md-8 {
@@ -60,6 +61,7 @@ body {
 
 .details-wrapper .row2 {
   background-color: #070707;
+  color: beige;
   width: 100%;
 }
 
